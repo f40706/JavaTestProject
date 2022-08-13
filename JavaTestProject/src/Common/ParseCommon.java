@@ -1,3 +1,5 @@
+package Common;
+
 public final class ParseCommon {
     public static int parseInt(String str) {
         try {
