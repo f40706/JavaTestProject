@@ -1,5 +1,16 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+//        parseString();
+        inputTest();
+    }
+    private static void inputTest() {
+        Scanner scanner = new Scanner(System.in);
+        int input = SystemCommon.scannerInputInt(scanner);
+        System.out.println("input: " + input);
+    }
+    private static void parseString() {
         String str = "123";
         int value = ParseCommon.parseInt(str);
         System.out.println("int " + value);
@@ -20,7 +31,6 @@ public class Main {
         double value5 = ParseCommon.parseDouble(str5);
         System.out.println("double " + value5);
     }
-
 
 
 }
