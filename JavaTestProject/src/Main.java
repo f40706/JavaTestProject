@@ -1,5 +1,5 @@
-import Common.ParseCommon;
-import Common.SystemCommon;
+import common.ParseCommon;
+import common.SystemCommon;
 
 import java.util.Scanner;
 

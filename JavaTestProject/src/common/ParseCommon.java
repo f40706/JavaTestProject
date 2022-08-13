@@ -1,4 +1,4 @@
-package Common;
+package common;
 
 public final class ParseCommon {
     public static int parseInt(String str) {

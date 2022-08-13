@@ -1,18 +1,18 @@
-package Common;
+package common;
 
 import java.util.Scanner;
 
 public final class SystemCommon {
     public static int scannerInputInt(Scanner scanner) {
-        return SystemCommon.scannerInputInt(scanner, 10);
+        return scannerInputInt(scanner, 10);
     }
 
     public static short scannerInputShort(Scanner scanner) {
-        return SystemCommon.scannerInputShort(scanner, 10);
+        return scannerInputShort(scanner, 10);
     }
 
     public static long scannerInputLong(Scanner scanner) {
-        return SystemCommon.scannerInputLong(scanner, 10);
+        return scannerInputLong(scanner, 10);
     }
 
     public static int scannerInputInt(Scanner scanner, int radix) {
