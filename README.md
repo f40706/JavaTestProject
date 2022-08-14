@@ -24,4 +24,14 @@
 4. 新增orderLinkList用法
    1. 參考LinkedListMain
    2. 實現String自動排序的功能
+## Interface && Inner && Abstract
+1. 新增interfaceTest用法
+   1. 參考TestMain
+   2. 實現Interface的各種用法
+2. 新增innerTest用法
+   1. 參考TestMain
+   2. 實現Inner的用法及應注意的事情
+3. 新增Abstract用法
+   1. 參考TestMain
+   2. 實現Abstract用法
 
