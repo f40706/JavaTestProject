@@ -24,6 +24,8 @@ public class TestMain extends AbstractTest {
         //沒宣告成static，也有可能造成記憶體洩漏，應注意，Tool也會提醒加上static
         InnerTest.Data data = new InnerTest.Data('c', 22);
         System.out.println("TestMain " + data.getWord() + " : " + data.getCount());
+        InnerTest.Data data2 = new InnerTest.Data('h', 19);
+        System.out.println("TestMain " + data2.getWord() + " : " + data2.getCount());
 
         //此處Inner雖然InnerTest.Data是靜態，但不會共享記憶體
         System.out.println(innerTest.getContent());
