@@ -34,4 +34,8 @@
 3. 新增Abstract用法
    1. 參考TestMain
    2. 實現Abstract用法
+## Generics
+1. 新增genericsTest用法
+   1. 參考GenericsMain
+   2. 實現generics用法
 
