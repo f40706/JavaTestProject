@@ -1,9 +1,11 @@
+package basic;
+
 import common.ParseCommon;
 import common.SystemCommon;
 
 import java.util.Scanner;
 
-public class Main {
+public class BasicMain {
     public static void main(String[] args) {
 //        parseString();
         inputTest();
