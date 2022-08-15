@@ -9,4 +9,5 @@ public class CPlayer extends Player {
     void printLevel() {
         System.out.println("1");
     }
+
 }

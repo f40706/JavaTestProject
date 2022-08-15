@@ -17,6 +17,10 @@ public abstract class Player {
         return score;
     }
 
+    protected void scopeTest() {
+        System.out.println("scopeTest");
+    }
+
     public void setScore(int score) {
         this.score = score;
     }

@@ -38,4 +38,10 @@
 1. 新增genericsTest用法
    1. 參考GenericsMain
    2. 實現generics用法
-
+## Scope && Static init
+1. 新增testScope測試
+   1. 參考MainTest2
+   2. 實現作用域的測試
+2. 新增testStaticInit測試
+   1. 參考MainTest2
+   2. 實現靜態初始化的測試
