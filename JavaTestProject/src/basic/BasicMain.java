@@ -6,12 +6,17 @@ import common.SystemCommon;
 import java.util.Scanner;
 
 public class BasicMain {
+    /**
+     * parseString: 實現解析String
+     * inputTest: 實現Scanner簡單用法與分割輸入
+     * */
     public static void main(String[] args) {
 //        parseString();
         inputTest();
     }
     private static void inputTest() {
         Scanner scanner = new Scanner(System.in);
+        scanner.useDelimiter(",");
         int input = SystemCommon.scannerInputInt(scanner);
         System.out.println("input: " + input);
     }

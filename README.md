@@ -1,7 +1,7 @@
 # JavaTestProject
 ## 基本
 1. Parse 字串為 int, short, long, float, double
-2. Scanner Input使用
+2. Scanner Input 簡單用法與分割輸入
 ## OOP
 1. Overload與Override用法
    1. 參考OverloadAndOverrideMain

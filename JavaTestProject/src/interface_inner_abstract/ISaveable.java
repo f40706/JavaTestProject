@@ -8,6 +8,7 @@ public interface ISaveable  {
         print("dataConvert");
     }
 
+    //跨Package依然可以使用，確定是public，前方+public也會反灰
     default boolean isExist() {
         print("isExist");
         return true;

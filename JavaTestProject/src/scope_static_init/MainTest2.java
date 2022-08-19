@@ -3,6 +3,7 @@ package scope_static_init;
 import generics.APlayer;
 import generics.BPlayer;
 import generics.CPlayer;
+import interface_inner_abstract.ISaveable;
 
 public class MainTest2 {
     /**
@@ -12,6 +13,17 @@ public class MainTest2 {
     public static void main(String[] args) {
 //        testScope();
         testStaticInit();
+        ISaveable iSaveable = new ISaveable() {
+            @Override
+            public boolean isOpen() {
+                return false;
+            }
+
+            @Override
+            public boolean isExist() {
+                return ISaveable.super.isExist();
+            }
+        };
     }
 
     private static void testStaticInit() {
