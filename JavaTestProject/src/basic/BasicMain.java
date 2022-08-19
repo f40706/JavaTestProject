@@ -17,6 +17,7 @@ public class BasicMain {
     private static void inputTest() {
         Scanner scanner = new Scanner(System.in);
         scanner.useDelimiter(",");
+        //依需求可以使用scanner.skip(scanner.delimiter());
         int input = SystemCommon.scannerInputInt(scanner);
         System.out.println("input: " + input);
     }
